@@ -14,9 +14,11 @@ dfcsv=pd.read_csv("Data Cleaning.csv")
 
 
 dfexcel=pd.read_excel("Data Cleaning Start.xlsx", sheet_name="Data")
-print(dfexcel.shape)
-print(dfexcel.info)
-print(dfexcel.head)
-print(dfexcel.tail)
-print(dfexcel.describe)
+#print(dfexcel.shape)
+#print(dfexcel.info)
+#print(dfexcel.head)
+#print(dfexcel.tail)
+#print(df.describe)
+print(df.columns)
+
 
