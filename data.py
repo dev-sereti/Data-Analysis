@@ -12,4 +12,5 @@ df.set_index('Name', inplace=True)
 
 
 
-
+dfcsv=pd.read_csv("Data Cleaning.csv")
+#print(dfcsv.head)
