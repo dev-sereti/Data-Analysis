@@ -5,4 +5,6 @@ df=pd.DataFrame({
     'Age':[21,22,23,34],
     'Score':[33,45,55,67]
 })
+df.set_index('Name', inplace=True)
+
 print(df.head)
