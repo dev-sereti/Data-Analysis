@@ -1,3 +1,4 @@
+#Creating Series and Data Frames
 import pandas as pd
 data=pd.Series([10,20,30,40],index=['A','B','C','D'])
 df=pd.DataFrame({
@@ -7,4 +8,8 @@ df=pd.DataFrame({
 })
 df.set_index('Name', inplace=True)
 
-print(df.head)
+# Reading files
+
+
+
+
