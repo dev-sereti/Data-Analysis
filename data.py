@@ -5,3 +5,4 @@ df=pd.DataFrame({
     'Age':[21,22,23,34],
     'Score':[33,45,55,67]
 })
+print(df.head)
