@@ -9,8 +9,9 @@ df=pd.DataFrame({
 df.set_index('Name', inplace=True)
 
 # Reading files
-
-
-
 dfcsv=pd.read_csv("Data Cleaning.csv")
 #print(dfcsv.head)
+
+
+dfexcel=pd.read_excel("Data Cleaning Start.xlsx", sheet_name="Data")
+print(dfexcel.head)
